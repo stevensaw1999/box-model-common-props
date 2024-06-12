@@ -325,6 +325,12 @@ footer{
 /* For both links in the section */
 #section2 a{
     display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 50%;
+    
 
 }
 /* 
