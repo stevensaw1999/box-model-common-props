@@ -323,6 +323,10 @@ footer{
 /* content, padding, borders, margin, dev tools, inline, & block elements */
 
 /* For both links in the section */
+#section2 a{
+    display: block;
+
+}
 /* 
     TO DO: add styles to both links in this section that will:
         - make these links display as block-level elements
