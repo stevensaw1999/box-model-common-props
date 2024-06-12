@@ -371,6 +371,7 @@ footer{
 }
 
 /* For the last paragraph in the section */
+
 /* 
     TO DO: add styles to the last paragraph in this section that will:
         - make the background the teal-rgba color
@@ -387,8 +388,13 @@ footer{
             - left: 60px
 */
 #section2 div > p:last-of-type{
-    
+    background-color: var(--dk-teal-rgba);
+    border: 4px dashed var(--dk-gray);
+    margin: 16px 60px 32px 8px;
+    padding: 32px 8px 16px 60px;
 }
+    
+
 
  /* For the div wrapped around that paragraph to show the space its taking up within its container */
 #section2 div{
@@ -404,6 +410,10 @@ footer{
         - add the small box shadow, using the variable in the root
 */
 #section2 a:first-of-type:hover{
+    background: var(--dk-blue);
+    color: var(--white);
+    border-color: var(--lt-blue);
+    box-shadow: var(--box-shadow-sm);
 
 }
 
@@ -428,6 +438,7 @@ footer{
         - add the small filter drop shadow from the CSS variables in the root
 */
 #section3 img{
+
     
 }
 
